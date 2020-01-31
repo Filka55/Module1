@@ -18,12 +18,18 @@
           <h1><a href="#">Tempo</a></h1>
           <p>the best blogging theme</p>
         </div>
-        <nav>
-          <a href="#">front page</a>
-          <a href="#">Blog</a>
-          <a href="#">Site map</a>
-          <a href="#">Contact us</a>
-        </nav>
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <nav class="menu__box">
+            <a class="menu__item" href="#">Front page</a>
+            <a class="menu__item" href="#">Blog</a>
+            <a class="menu__item" href="#">Site map</a>
+            <a class="menu__item" href="#">Contact us</a>
+          </nav>
+        </div>
       </div>
     </header>
     <div class="slider">
@@ -57,7 +63,7 @@
           <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
           <a href="#"><i class="fa fa-dropbox" aria-hidden="true"></i></a>
           <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          <a href="#"><span><i class="fa fa-wifi" aria-hidden="true"></i></span></a>
+          <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
         </div>
       </div>
     </footer>
